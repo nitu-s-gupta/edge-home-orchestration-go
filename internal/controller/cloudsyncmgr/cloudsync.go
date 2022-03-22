@@ -76,7 +76,7 @@ func (c *CloudSyncImpl) InitiateCloudSync(isCloudSet string) (err error) {
 				}
 			}
 			//Intialize the client and hashmap storing client data
-			mqttmgr.InitClientData()
+			mqttmgr.InitMQTTData()
 		}
 	}
 	return nil
